@@ -1,1 +1,9 @@
-
+# Write your code here :-)
+import math # This command is to import the math library
+client_name = input ('Hello,what is your name?')
+print (client_name,", We hope you enjoy!")
+bill_amont = int(input ("what is your total bill amont?"))
+print (f"your total bill is ${bill_amont:.2f}" ,"right?")
+number_of_people = int(input("how many people will split the bill?"))
+print (client_name, f"each of you will pay ${bill_amont/number_of_people:.2f}.")
+print("Thank you for your business.")
