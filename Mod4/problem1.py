@@ -15,9 +15,10 @@ Your truth table should be commented out (as it's not valid Python code!)
 #A  B   (A AND B)   (A OR B)  (NOT B)
 
 # 5. Determine the number of Rows
-#A  B   (A AND B)   (A OR B)  (NOT B)
-#T  T       T           T        F
-#T  F       F           T        F
-#F  T       F           T        F
-#F  F       F           F        T
+#A  B   (A AND B)   (A OR B)  NOT(A AND B)  (A OR B)    AND NOT(A AND B)
+#T  T       T           T        F          F
+#T  F       F           T        T          T
+#F  T       F           T        T          T
+#F  F       F           F        T          F
+
 
