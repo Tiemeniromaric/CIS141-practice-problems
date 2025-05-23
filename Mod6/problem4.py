@@ -6,7 +6,7 @@ whole_numbers = [1, 3, -2, 7, -8, -6, 5, 2, -3, 0]    #create the list of interg
 positive_count = 0
 negative_count = 0             #Initiale counters
 for number in whole_numbers:   # loop through the list
-    if number >=0:
+    if number > 0:
         positive_count += 1
     else:
         negative_count +=1
