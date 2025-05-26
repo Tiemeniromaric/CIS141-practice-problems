@@ -12,13 +12,13 @@ Your truth table should be commented out (as it's not valid Python code!)
 # 2 * 2 combinations of A&B = 4
 
 # 3. Create Table columns
-#A  B   (A AND B)   (A OR B)  (NOT B)
+#A  B   (A AND B)  (NOT B)  (A AND B)OR(NOT B)
 
 # 5. Determine the number of Rows
-#A  B   (A AND B)   (A OR B)  NOT(A AND B)  (A OR B)    AND NOT(A AND B)
-#T  T       T           T        F          F
-#T  F       F           T        T          T
-#F  T       F           T        T          T
-#F  F       F           F        T          F
+#A   B   A AND B     NOT B       (A AND B)OR(NOT B)
+#F   F       F          T            T
+#F   T       F          F            F
+#T   F       F          T            T
+#T   T       T          F            T
 
 
